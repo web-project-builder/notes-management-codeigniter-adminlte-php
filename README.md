@@ -16,6 +16,8 @@ It can be used as a base platform for any CodeIgniter project
 
 ![Login Screen](http://www.webprojectbuilder.com/assets/home_images/notes-management-screenshot/3-notes-management-notes-add-update.png)
 
+![Login Screen](http://www.webprojectbuilder.com/assets/home_images/notes-management-screenshot/Installation.png)
+
 
 ## [More Screenshots will be found here](http://www.webprojectbuilder.com/item/notes-manager)
 
@@ -36,7 +38,7 @@ It can be used as a base platform for any CodeIgniter project
 Installation
 ----
 It have interface of installation panel to quickly install the script on our server.
-Upload the code on your server and hit the url as shown below:
+Upload the code on your server and hit the URL of your main domain like
 
 Eg: yourdomain.com/install
 
