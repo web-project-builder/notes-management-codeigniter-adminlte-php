@@ -181,8 +181,8 @@ array( 'db' => '`notes`.`notes_id`', 'dt' => 5, 'field' => 'notes_id' ));
 			$date = explode(' - ', $this->input->post('dateRange'));
 			$where = " DATE_FORMAT(`notes`.`".$this->input->post('colName')."`, '%Y/%m/%d') >= '".date('Y/m/d', strtotime($date[0]))."' AND  DATE_FORMAT(`notes`.`".$this->input->post('colName')."`, '%Y/%m/%d') <= '".date('Y/m/d', strtotime($date[1]))."' ";
 		}
-		$data["view_data"]= $this->notes_model->get_data($where);
-		echo $this->load->view("tData",$data, true);
+		$data["view_data"]= $this->Notes_model->get_data($where);
+		echo $this->load->view("tableData",$data, true);
 		die;
   	}
 }
